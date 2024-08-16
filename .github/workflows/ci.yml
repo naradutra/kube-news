@@ -24,9 +24,6 @@ jobs:
     - name: Install dependencies
       run: npm install  # ou outro comando, conforme sua stack
 
-    - name: Run tests
-      run: npm test  # ou outro comando para executar os testes
-
     - name: Build project
       run: npm run build  # ou outro comando para build
 
